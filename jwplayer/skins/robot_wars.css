@@ -1,0 +1,584 @@
+.jw-icon {
+	font-family: 'jw-icons';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: none;
+	background-color: transparent;
+	font-variant: normal;
+	/*-webkit-font-feature-settings: liga;*/
+	/*-moz-font-feature-settings: liga=1;*/
+	/*-moz-font-feature-settings: liga;*/
+	/*-ms-font-feature-settings: liga 1;*/
+	/*-o-font-feature-settings: liga;*/
+	/*font-feature-settings: liga;*/
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jw-skin-robot_wars .jw-background-color {
+	background: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-controlbar {
+	background: rgba(255,255,255,0.4);
+}
+
+.jw-skin-robot_wars .jw-text {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-tooltip-title {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-knob {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-button-color {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-button-color:hover {
+	color: #fff;
+}
+
+.jw-skin-robot_wars .jw-toggle {
+	color: #fff;
+}
+
+.jw-skin-robot_wars .jw-toggle.jw-off {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-option {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-option.jw-active-option {
+	color: #fff;
+}
+
+.jw-skin-robot_wars .jw-icon-display {
+	color: rgba(255,255,255,0.5);
+}
+
+.jw-skin-robot_wars .jw-display-icon-container {
+	border-radius: .5em;
+}
+
+.jw-skin-robot_wars .jw-display-icon-container:hover {
+	background: #000;
+}
+
+.jw-skin-robot_wars .jw-display-icon-container:hover .jw-icon-display {
+	color: #0f9e60;
+}
+
+.jw-skin-robot_wars .jw-rail {
+	background: rgba(255,255,255,0.4);
+}
+
+.jw-skin-robot_wars .jw-buffer {
+	background: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-progress {
+	background: #0f9e60;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal {
+	background: rgba(255,255,255,0.4);
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-knob {
+	margin-left: -.325em;
+}
+
+.jw-skin-robot_wars .jw-slider-vertical .jw-knob {
+	margin-bottom: -.325em;
+}
+
+.jw-skin-robot_wars .jw-time-tip,.jw-skin-robot_wars .jw-volume-tip,.jw-skin-robot_wars .jw-menu {
+	background: rgba(0,0,0,0.5);
+	border: 0;
+	padding: .5em;
+}
+
+.jw-skin-robot_wars .jw-skip {
+	background: rgba(255,255,255,0.4);
+	padding: .5em;
+}
+
+.jw-skin-robot_wars .jw-skip .jw-skip-icon {
+	color: rgba(0,0,0,0.5);
+}
+
+.jw-skin-robot_wars .jw-skip.jw-skippable:hover .jw-skip-icon,.jw-skin-robot_wars .jw-skip.jw-skippable:hover .jw-text {
+	color: #fff;
+}
+
+.jw-skin-robot_wars .jw-time-tip .jw-text,.jw-skin-robot_wars .jw-dock-button .jw-text {
+	color: #bbb;
+}
+
+.jw-skin-robot_wars .jw-time-tip {
+	bottom: 1em;
+}
+
+.jw-skin-robot_wars .jw-dock-button {
+	background: rgba(0,0,0,0.5);
+	border-radius: .5em;
+}
+
+.jw-skin-robot_wars .jw-dock-button:hover {
+	background: #000;
+}
+
+.jw-skin-robot_wars .jw-playlist-container {
+	padding: 0;
+}
+
+.jw-skin-robot_wars .jw-icon-inline,.jw-skin-robot_wars .jw-icon-tooltip,.jw-skin-robot_wars .jw-text-elapsed,.jw-skin-robot_wars .jw-text-duration {
+	padding: 0 .25em;
+}
+
+.jw-skin-robot_wars .jw-time-tip,.jw-skin-robot_wars .jw-volume-tip,.jw-skin-robot_wars .jw-menu {
+	border-radius: .25em;
+	bottom: .3em;
+}
+
+.jw-skin-robot_wars .jw-skip {
+	border-radius: .25em;
+}
+
+.jw-skin-robot_wars .jw-option {
+	color: #fff;
+}
+
+.jw-skin-robot_wars .jw-option:hover,.jw-skin-robot_wars .jw-option.jw-active-option {
+	color: #0f9e60;
+}
+
+.jw-skin-robot_wars .jw-playlist-container {
+	left: -42%;
+	bottom: 0;
+	border-radius: 0;
+	background-color: #1e1e1e;
+}
+
+.jw-skin-robot_wars .jw-playlist-container .jw-option,.jw-skin-robot_wars .jw-playlist-container .jw-text,.jw-skin-robot_wars .jw-playlist-container .jw-icon {
+	color: #a0a0a0;
+}
+
+.jw-skin-robot_wars .jw-playlist-container .jw-option {
+	border-bottom: 1px solid #000;
+	background-color: #1e1e1e;
+	color: #a8a8a8;
+}
+
+.jw-skin-robot_wars .jw-playlist-container .jw-option:hover,.jw-skin-robot_wars .jw-playlist-container .jw-option.jw-active-option {
+	color: #0f9e60;
+}
+
+.jw-skin-robot_wars .jw-playlist-container ::-webkit-scrollbar-track {
+	background-color: #000;
+}
+
+.jw-skin-robot_wars .jw-playlist-container ::-webkit-scrollbar {
+	width: 2px;
+	border: 10px solid #1e1e1e;
+}
+
+.jw-skin-robot_wars .jw-playlist-container ::-webkit-scrollbar-thumb {
+	background-color: #a0a0a0;
+}
+
+.jw-skin-robot_wars .jw-tooltip-title {
+	border-bottom: 1px solid #000;
+	background-color: #1e1e1e;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal {
+	height: 2em;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-slider-container {
+	height: 2em;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-rail,.jw-skin-robot_wars .jw-slider-horizontal .jw-progress,.jw-skin-robot_wars .jw-slider-horizontal .jw-buffer {
+	height: 2em;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-knob,.jw-skin-robot_wars .jw-slider-horizontal .jw-cue {
+	height: 2em;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-knob {
+	margin-left: 0;
+	background-color: #fff;
+	width: .2em;
+}
+
+.jw-skin-robot_wars .jw-slider-horizontal .jw-cue {
+	top: .67em;
+	background: rgba(255,255,255,0.5);
+	height: .66em;
+}
+
+.jw-skin-robot_wars .jw-slider-vertical {
+	padding: .4em;
+	bottom: 3px;
+	border-radius: 2px;
+	border: 0;
+}
+
+.jw-skin-robot_wars .jw-slider-vertical .jw-knob {
+	display: none;
+}
+
+.jw-skin-robot_wars .jw-slider-vertical .jw-rail {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.jw-skin-robot_wars .jw-slider-vertical .jw-rail,.jw-skin-robot_wars .jw-slider-vertical .jw-progress {
+	width: .5em;
+	border: 1px solid #000;
+}
+
+.jw-skin-robot_wars .jw-icon-cc.jw-off:before {
+	content: "\e604";
+}
+
+.jw-skin-robot_wars .jw-icon-hd.jw-off:before {
+	content: "\e609";
+}
+
+.jw-skin-robot_wars.jw-flag-audio-player .jw-controlbar {
+	background: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+.jw-controlbar {
+	width: 100%;
+	height: 35px !important;
+}
+
+.jw-skin-robot_wars .jw-controlbar {
+    background: rgba(45,45,45,0.75);
+}
+
+.jw-skin-robot_wars .jw-text {
+    color: rgba(226,226,226,0.75);
+}
+
+.jw-skin-robot_wars .jw-button-color {
+	color: rgba(226,226,226,0.75) !important;
+}
+
+.jw-skin-robot_wars .jw-button-color:hover {
+	color: #E8AB36 !important;
+}
+
+.jw-skin-robot_wars .jw-progress {
+    background: #E8AB36;
+}
+
+.jw-skin-robot_wars .jw-buffer {
+    background: rgb(85, 103, 107);
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-left-group {
+    width: 18%;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group {
+	width: 60%;
+    padding: 0 2%;
+    position: absolute;
+    top: 2px;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-slider-time {
+	-webkit-transform: rotateX(-20deg); /* Chrome, Safari, Opera  */
+	transform: rotateX(-20deg) !important;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-container {
+	-webkit-perspective: 150px!important; /* Chrome, Safari, Opera */
+    perspective: 150px!important;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-time {
+	background-color: transparent!important;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-horizontal {
+	background-color: transparent!important;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-rail {
+	background-color: transparent!important;
+}
+
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-container .jw-rail,
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-container .jw-progress, 
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-container .jw-buffer,
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-slider-container .jw-knob {
+	-webkit-transform: rotateX(-20deg); /* Chrome, Safari, Opera  */
+    transform: rotateX(-20deg);
+}
+
+
+/*
+.jw-skin-robot_wars .jw-controls .jw-controlbar-center-group .jw-icon-tooltip {
+	perspective: 200px !important;
+}*/
+
+
+
+
+/*right side of player*/
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-left-group .jw-icon-playback {
+    position: absolute;
+	top: 4px;
+    left: 8px;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-left-group .jw-text-elapsed {
+	position: absolute;
+    top: 4px;
+    left: 38px;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group {
+    width: 18%;
+    position: relative;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-fullscreen {
+	position: absolute;
+	top: 8px;
+    right: 8px;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-volume {
+	height: 31px;
+	position: absolute;
+	top: 8px;
+	right: 38px;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group {
+	position: absolute;
+	right: 0;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-text-duration  {
+	position: absolute;
+	top: 4px;
+	right: 70px;
+}
+
+.jw-controlbar .jw-overlay {
+    bottom: 21px;
+}
+
+.jw-skin-robot_wars .jw-time-tip, .jw-skin-robot_wars .jw-volume-tip, .jw-skin-robot_wars .jw-menu {
+    background: rgb(0, 0, 0) !important;
+}
+
+
+/*icons*/
+
+
+/*Big buttons*/
+
+
+.jw-state-playing .jw-controls .jw-controlbar-left-group .jw-icon-playback::before {
+	display: block;
+	width: 18px;
+    height: 22px;
+	content: "" !important;
+	background: url('../icons/pause-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+
+.jw-state-paused .jw-controls .jw-controlbar-left-group .jw-icon-playback::before {
+	display: block;
+	width: 18px;
+    height: 24px;
+	content: "" !important;
+	background: url('../icons/play-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-state-buffering .jw-controls .jw-controlbar-left-group .jw-icon-playback::before {
+	display: block;
+	width: 18px;
+    height: 23px;
+	content: "" !important;
+	background: url('../icons/pause-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-state-playing .jw-display-icon-container .jw-icon-display:hover:before {
+	background-position: 0 -48px;
+}
+
+.jw-state-paused .jw-display-icon-container .jw-icon-display:hover:before {
+	background-position: 0 -48px;
+}
+
+
+.jw-flag-user-inactive.jw-state-playing .jw-display-icon-container .jw-icon-display:before {
+	opacity: 0;
+}
+
+
+/*small buttons*/
+
+.jw-state-playing .jw-controls .jw-controlbar-left-group .jw-icon-playback::before {
+	display: block;
+	width: 18px;
+    height: 22px;
+	content: "" !important;
+	background: url('../icons/pause-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-state-paused .jw-controls .jw-controlbar-left-group .jw-icon-playback::before {
+	display: block;
+	width: 18px;
+    height: 24px;
+	content: "" !important;
+	background: url('../icons/play-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-fullscreen::before {
+	display: block;
+	width: 18px;
+    height: 16px;
+	content: "";
+	background: url('../icons/fullscreen-btn-02.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-volume::before {
+	display: block;
+	width: 18px;
+    height: 16px;
+	content: "";
+	background: url('../icons/volume-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-icon-volume.jw-off:before {
+	background-position: 0 -34px !important;
+}
+
+
+/*Main play button*/
+
+.jw-display-icon-container {
+    display: block !important;
+}
+
+.jw-state-idle .jw-icon-display {
+    color: transparent !important;
+	
+}
+
+.jw-state-idle .jw-icon-display:hover {
+    color: transparent !important;
+	
+}
+
+.jwplayer:hover .jw-display-icon-container {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.jw-skin-robot_wars .jw-display-icon-container {
+    background: transparent;
+}
+
+.jw-skin-robot_wars .jw-display-icon-container {
+	width: 36px;
+}
+
+	
+.jw-state-idle .jw-icon-display:before, 
+.jw-state-paused .jw-display-icon-container .jw-icon-display:before {
+	display: block;
+	width: 36px;
+    height: 48px;
+	content: "" !important;
+	background: url('../icons/play-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-state-playing .jw-display-icon-container .jw-icon-display:before {
+	display: block;
+	width: 36px;
+    height: 47px;
+	content: "" !important;
+	background: url('../icons/pause-btn.svg') no-repeat 0 0;
+    background-size: 100%;
+	background-position: top center;
+}
+
+.jw-state-idle .jw-icon-display:hover:before {
+	background-position: 0 -48px;
+}
+
+
+.jw-slider-volume .jw-volume-tip .jw-background-color .jw-reset .jw-slider-vertical .jw-reset {
+	background-color: #000;
+}
+
+/*hovers*/
+
+.jw-state-playing .jw-controls .jw-controlbar-left-group .jw-icon-playback:hover::before,
+.jw-state-paused .jw-controls .jw-controlbar-left-group .jw-icon-playback:hover::before,
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-fullscreen:hover::before,
+.jw-icon-volume.jw-off:hover:before {
+	background-position: bottom center;
+}
+
+.jw-skin-robot_wars .jw-controls .jw-controlbar-right-group .jw-icon-volume:hover::before {
+	background-position: 0 -17px;
+}
+
+.jw-icon-volume.jw-off:hover:before {
+	background-position: 0 -51px !important;
+}

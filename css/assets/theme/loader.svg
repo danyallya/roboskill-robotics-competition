@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_4" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+	 style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.circle--chevron {
+		fill:#90C3A1;
+	}
+	.front--badge {
+		fill:#232B1A;
+	}
+	.front--top {
+		fill:#CEA630;
+	}
+	.front--bottom {
+		fill:#FFF1D0;
+	}
+	.main-circle--block {
+		fill:url(#grad);
+	}
+	.outer-circle-path {
+		fill: none;
+	}
+
+
+	.circle--chevron {
+		transform-origin: center center;
+		animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		animation-name: turn;
+		animation-iteration-count: infinite;
+		animation-duration: 8s;
+
+		-webkit-transform-origin: center center;
+		-webkit-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-webkit-animation-name: turn;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-duration: 8s;
+
+		-moz-transform-origin: center center;
+		-moz-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-moz-animation-name: turn;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-duration: 8s;
+
+		-ms-transform-origin: center center;
+		-ms-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-ms-animation-name: turn;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-duration: 8s;
+
+		-o-transform-origin: center center;
+		-o-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-o-animation-name: turn;
+		-o-animation-iteration-count: infinite;
+		-o-animation-duration: 8s;
+	}
+
+
+	@keyframes turn {
+		from {
+			transform: rotate(360deg);
+		}
+		to {
+			transform: rotate(0deg);
+		}
+	}
+
+	@-webkit-keyframes turn {
+		from {
+			-webkit-transform: rotate(360deg);
+		}
+		to {
+			-webkit-transform: rotate(0deg);
+		}
+	}
+
+	@-moz-keyframes turn {
+		from {
+			-moz-transform: rotate(360deg);
+		}
+		to {
+			-moz-transform: rotate(0deg);
+		}
+	}
+
+	@-ms-keyframes turn {
+		from {
+			-ms-transform: rotate(360deg);
+		}
+		to {
+			-ms-transform: rotate(0deg);
+		}
+	}
+
+	@-o-keyframes turn {
+		from {
+			-o-transform: rotate(360deg);
+		}
+		to {
+			-o-transform: rotate(0deg);
+		}
+	}
+
+
+
+
+	.main-circle--block {
+		transform-origin: 50px 50px;
+		animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		animation-name: cog-turn;
+		animation-iteration-count: infinite;
+		animation-duration: 14s;
+		animation-delay: .4s;
+
+		-webkit-transform-origin: 50px 50px;
+		-webkit-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-webkit-animation-name: cog-turn;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-duration: 14s;
+		-webkit-animation-delay: .4s;
+
+		-moz-transform-origin: 50px 50px;
+		-moz-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-moz-animation-name: cog-turn;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-duration: 14s;
+		-moz-animation-delay: .4s;
+
+		-ms-transform-origin: 50px 50px;
+		-ms-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-ms-animation-name: cog-turn;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-duration: 14s;
+		-ms-animation-delay: .4s;
+
+		-o-transform-origin: 50px 50px;
+		-o-animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		-o-animation-name: cog-turn;
+		-o-animation-iteration-count: infinite;
+		-o-animation-duration: 14s;
+		-o-animation-delay: .4s;
+	}
+
+
+	@keyframes cog-turn {
+		0% { transform: rotate(0deg); }
+		0.75% { transform: rotate(18deg); }
+		5% { transform: rotate(18deg); }
+		5.75% { transform: rotate(36deg); }
+		10% { transform: rotate(36deg); }
+		10.75% { transform: rotate(54deg); }
+		15% { transform: rotate(54deg); }
+		15.75% { transform: rotate(72deg); }
+		20% { transform: rotate(72deg); }
+		20.75% { transform: rotate(90deg); }
+		25% { transform: rotate(90deg); }
+		25.75% { transform: rotate(108deg); }
+		30% { transform: rotate(108deg); }
+		30.75% { transform: rotate(126deg); }
+		35% { transform: rotate(126deg); }
+		35.75% { transform: rotate(144deg); }
+		40% { transform: rotate(144deg); }
+		40.75% { transform: rotate(162deg); }
+		45% { transform: rotate(162deg); }
+		45.75% { transform: rotate(180deg); }
+		50% { transform: rotate(180deg); }
+		50.75% { transform: rotate(198deg); }
+		55% { transform: rotate(198deg); }
+		55.75% { transform: rotate(216deg); }
+		60% { transform: rotate(216deg); }
+		60.75% { transform: rotate(234deg); }
+		65% { transform: rotate(234deg); }
+		65.75% { transform: rotate(252deg); }
+		70% { transform: rotate(252deg); }
+		70.75% { transform: rotate(270deg); }
+		75% { transform: rotate(270deg); }
+		75.75% { transform: rotate(288deg); }
+		80% { transform: rotate(288deg); }
+		80.75% { transform: rotate(306deg); }
+		85% { transform: rotate(306deg); }
+		85.75% { transform: rotate(324deg); }
+		90% { transform: rotate(324deg); }
+		90.75% { transform: rotate(342deg); }
+		95% { transform: rotate(342deg); }
+		95.75% { transform: rotate(360deg); }
+		100% { transform: rotate(360deg); }
+	}
+
+	@-webkit-keyframes cog-turn {
+		0% { -webkit-transform: rotate(0deg); }
+		0.75% { -webkit-transform: rotate(18deg); }
+		5% { -webkit-transform: rotate(18deg); }
+		5.75% { -webkit-transform: rotate(36deg); }
+		10% { -webkit-transform: rotate(36deg); }
+		10.75% { -webkit-transform: rotate(54deg); }
+		15% { -webkit-transform: rotate(54deg); }
+		15.75% { -webkit-transform: rotate(72deg); }
+		20% { -webkit-transform: rotate(72deg); }
+		20.75% { -webkit-transform: rotate(90deg); }
+		25% { -webkit-transform: rotate(90deg); }
+		25.75% { -webkit-transform: rotate(108deg); }
+		30% { -webkit-transform: rotate(108deg); }
+		30.75% { -webkit-transform: rotate(126deg); }
+		35% { -webkit-transform: rotate(126deg); }
+		35.75% { -webkit-transform: rotate(144deg); }
+		40% { -webkit-transform: rotate(144deg); }
+		40.75% { -webkit-transform: rotate(162deg); }
+		45% { -webkit-transform: rotate(162deg); }
+		45.75% { -webkit-transform: rotate(180deg); }
+		50% { -webkit-transform: rotate(180deg); }
+		50.75% { -webkit-transform: rotate(198deg); }
+		55% { -webkit-transform: rotate(198deg); }
+		55.75% { -webkit-transform: rotate(216deg); }
+		60% { -webkit-transform: rotate(216deg); }
+		60.75% { -webkit-transform: rotate(234deg); }
+		65% { -webkit-transform: rotate(234deg); }
+		65.75% { -webkit-transform: rotate(252deg); }
+		70% { -webkit-transform: rotate(252deg); }
+		70.75% { -webkit-transform: rotate(270deg); }
+		75% { -webkit-transform: rotate(270deg); }
+		75.75% { -webkit-transform: rotate(288deg); }
+		80% { -webkit-transform: rotate(288deg); }
+		80.75% { -webkit-transform: rotate(306deg); }
+		85% { -webkit-transform: rotate(306deg); }
+		85.75% { -webkit-transform: rotate(324deg); }
+		90% { -webkit-transform: rotate(324deg); }
+		90.75% { -webkit-transform: rotate(342deg); }
+		95% { -webkit-transform: rotate(342deg); }
+		95.75% { -webkit-transform: rotate(360deg); }
+		100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@-moz-keyframes cog-turn {
+		0% { -moz-transform: rotate(0deg); }
+		0.75% { -moz-transform: rotate(18deg); }
+		5% { -moz-transform: rotate(18deg); }
+		5.75% { -moz-transform: rotate(36deg); }
+		10% { -moz-transform: rotate(36deg); }
+		10.75% { -moz-transform: rotate(54deg); }
+		15% { -moz-transform: rotate(54deg); }
+		15.75% { -moz-transform: rotate(72deg); }
+		20% { -moz-transform: rotate(72deg); }
+		20.75% { -moz-transform: rotate(90deg); }
+		25% { -moz-transform: rotate(90deg); }
+		25.75% { -moz-transform: rotate(108deg); }
+		30% { -moz-transform: rotate(108deg); }
+		30.75% { -moz-transform: rotate(126deg); }
+		35% { -moz-transform: rotate(126deg); }
+		35.75% { -moz-transform: rotate(144deg); }
+		40% { -moz-transform: rotate(144deg); }
+		40.75% { -moz-transform: rotate(162deg); }
+		45% { -moz-transform: rotate(162deg); }
+		45.75% { -moz-transform: rotate(180deg); }
+		50% { -moz-transform: rotate(180deg); }
+		50.75% { -moz-transform: rotate(198deg); }
+		55% { -moz-transform: rotate(198deg); }
+		55.75% { -moz-transform: rotate(216deg); }
+		60% { -moz-transform: rotate(216deg); }
+		60.75% { -moz-transform: rotate(234deg); }
+		65% { -moz-transform: rotate(234deg); }
+		65.75% { -moz-transform: rotate(252deg); }
+		70% { -moz-transform: rotate(252deg); }
+		70.75% { -moz-transform: rotate(270deg); }
+		75% { -moz-transform: rotate(270deg); }
+		75.75% { -moz-transform: rotate(288deg); }
+		80% { -moz-transform: rotate(288deg); }
+		80.75% { -moz-transform: rotate(306deg); }
+		85% { -moz-transform: rotate(306deg); }
+		85.75% { -moz-transform: rotate(324deg); }
+		90% { -moz-transform: rotate(324deg); }
+		90.75% { -moz-transform: rotate(342deg); }
+		95% { -moz-transform: rotate(342deg); }
+		95.75% { -moz-transform: rotate(360deg); }
+		100% { -moz-transform: rotate(360deg); }
+	}
+
+	@-ms-keyframes cog-turn {
+		0% { -ms-transform: rotate(0deg); }
+		0.75% { -ms-transform: rotate(18deg); }
+		5% { -ms-transform: rotate(18deg); }
+		5.75% { -ms-transform: rotate(36deg); }
+		10% { -ms-transform: rotate(36deg); }
+		10.75% { -ms-transform: rotate(54deg); }
+		15% { -ms-transform: rotate(54deg); }
+		15.75% { -ms-transform: rotate(72deg); }
+		20% { -ms-transform: rotate(72deg); }
+		20.75% { -ms-transform: rotate(90deg); }
+		25% { -ms-transform: rotate(90deg); }
+		25.75% { -ms-transform: rotate(108deg); }
+		30% { -ms-transform: rotate(108deg); }
+		30.75% { -ms-transform: rotate(126deg); }
+		35% { -ms-transform: rotate(126deg); }
+		35.75% { -ms-transform: rotate(144deg); }
+		40% { -ms-transform: rotate(144deg); }
+		40.75% { -ms-transform: rotate(162deg); }
+		45% { -ms-transform: rotate(162deg); }
+		45.75% { -ms-transform: rotate(180deg); }
+		50% { -ms-transform: rotate(180deg); }
+		50.75% { -ms-transform: rotate(198deg); }
+		55% { -ms-transform: rotate(198deg); }
+		55.75% { -ms-transform: rotate(216deg); }
+		60% { -ms-transform: rotate(216deg); }
+		60.75% { -ms-transform: rotate(234deg); }
+		65% { -ms-transform: rotate(234deg); }
+		65.75% { -ms-transform: rotate(252deg); }
+		70% { -ms-transform: rotate(252deg); }
+		70.75% { -ms-transform: rotate(270deg); }
+		75% { -ms-transform: rotate(270deg); }
+		75.75% { -ms-transform: rotate(288deg); }
+		80% { -ms-transform: rotate(288deg); }
+		80.75% { -ms-transform: rotate(306deg); }
+		85% { -ms-transform: rotate(306deg); }
+		85.75% { -ms-transform: rotate(324deg); }
+		90% { -ms-transform: rotate(324deg); }
+		90.75% { -ms-transform: rotate(342deg); }
+		95% { -ms-transform: rotate(342deg); }
+		95.75% { -ms-transform: rotate(360deg); }
+		100% { -ms-transform: rotate(360deg); }
+	}
+
+	@-o-keyframes cog-turn {
+		0% { -o-transform: rotate(0deg); }
+		0.75% { -o-transform: rotate(18deg); }
+		5% { -o-transform: rotate(18deg); }
+		5.75% { -o-transform: rotate(36deg); }
+		10% { -o-transform: rotate(36deg); }
+		10.75% { -o-transform: rotate(54deg); }
+		15% { -o-transform: rotate(54deg); }
+		15.75% { -o-transform: rotate(72deg); }
+		20% { -o-transform: rotate(72deg); }
+		20.75% { -o-transform: rotate(90deg); }
+		25% { -o-transform: rotate(90deg); }
+		25.75% { -o-transform: rotate(108deg); }
+		30% { -o-transform: rotate(108deg); }
+		30.75% { -o-transform: rotate(126deg); }
+		35% { -o-transform: rotate(126deg); }
+		35.75% { -o-transform: rotate(144deg); }
+		40% { -o-transform: rotate(144deg); }
+		40.75% { -o-transform: rotate(162deg); }
+		45% { -o-transform: rotate(162deg); }
+		45.75% { -o-transform: rotate(180deg); }
+		50% { -o-transform: rotate(180deg); }
+		50.75% { -o-transform: rotate(198deg); }
+		55% { -o-transform: rotate(198deg); }
+		55.75% { -o-transform: rotate(216deg); }
+		60% { -o-transform: rotate(216deg); }
+		60.75% { -o-transform: rotate(234deg); }
+		65% { -o-transform: rotate(234deg); }
+		65.75% { -o-transform: rotate(252deg); }
+		70% { -o-transform: rotate(252deg); }
+		70.75% { -o-transform: rotate(270deg); }
+		75% { -o-transform: rotate(270deg); }
+		75.75% { -o-transform: rotate(288deg); }
+		80% { -o-transform: rotate(288deg); }
+		80.75% { -o-transform: rotate(306deg); }
+		85% { -o-transform: rotate(306deg); }
+		85.75% { -o-transform: rotate(324deg); }
+		90% { -o-transform: rotate(324deg); }
+		90.75% { -o-transform: rotate(342deg); }
+		95% { -o-transform: rotate(342deg); }
+		95.75% { -o-transform: rotate(360deg); }
+		100% { -o-transform: rotate(360deg); }
+	}
+
+
+	.st0{fill:#FFF1D0;}
+	.st1{fill:#827D73;}
+	.st2{fill:#463D26;}
+	.st3{fill:#FFECB2;}
+	.st4{fill:#4A584F;}
+	.st5{fill:#544922;}
+	.st6{fill:#FD543E;}
+	.st7{fill:#9DF3FF;}
+	.st8{fill:#5F9454;}
+
+	.light {
+		animation-timing-function: cubic-bezier(0, 0, 0, 0);
+		animation-name: flash;
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+		animation-delay: .4s;
+		fill: red;
+	}
+
+	@keyframes flash {
+		from {
+			fill: red;
+		}
+		to {
+			fill: #232B1A;
+		}
+	}
+
+
+</style>
+<switch>
+	<g i:extraneous="self">
+
+		<defs>
+			<linearGradient id="grad" x1="30%" y1="0%" x2="100%" y2="60%">
+				<stop  offset="0" style="stop-color:#65804E"/>
+				<stop  offset="1" style="stop-color:#06291F"/>
+			</linearGradient>
+		</defs>
+
+
+
+
+
+
+
+
+
+		<path class="main-circle--block" d="M50,4.8c-3.9,0-7.6,0.5-11.2,1.4l-1.5-4.5l-7.2,2.3l1.5,4.6c-1.8,0.8-3.5,1.7-5.2,2.7l-2.7-3.9l-6.2,4.3
+			l2.8,4c-1.5,1.3-2.9,2.6-4.2,4.1l-3.7-2.9L7.9,23l3.8,3c-1,1.6-2,3.4-2.8,5.1l-4.4-1.7l-2.7,7l4.6,1.7C5.9,40.1,5.5,42,5.2,44
+			l-4.7-0.3L0,51.2l4.9,0.3c0.1,2,0.3,3.9,0.6,5.8l-4.6,1.1l1.7,7.3l4.8-1.1c0.6,1.9,1.4,3.7,2.3,5.4l-4.1,2.4l3.8,6.5l4.2-2.4
+			c1.1,1.6,2.4,3.1,3.7,4.5l-3.2,3.5l5.5,5.1l3.3-3.6c1.6,1.2,3.2,2.2,4.9,3.2l-2.1,4.3l6.8,3.3l2.1-4.4c4.8,1.8,10.1,2.7,15.5,2.7
+			c24.9,0,45.2-20.2,45.2-45.2C95.2,25.1,74.9,4.8,50,4.8z"/>
+
+
+
+			<path class="circle--chevron" d="M83.5,55.6l2.8,0.6c0.1-0.8,0.2-1.5,0.3-2.3l-2.9-0.3C83.7,54.2,83.6,54.9,83.5,55.6z
+			M31.3,78.3l-1.7,2.4c0.7,0.4,1.3,0.8,2,1.2l1.4-2.5C32.4,79.1,31.9,78.7,31.3,78.3z
+			M37.6,81.6l-1.1,2.7c0.7,0.3,1.5,0.5,2.2,0.8l0.8-2.8C38.9,82.1,38.2,81.9,37.6,81.6z
+			M44.4,83.5l-0.6,2.8c0.8,0.1,1.5,0.2,2.3,0.3l0.3-2.9C45.8,83.7,45.1,83.6,44.4,83.5z
+			M82.7,59l2.8,0.8c0.2-0.8,0.4-1.5,0.6-2.3l-2.8-0.6C83.1,57.7,82.9,58.4,82.7,59z
+			M34.4,80.1L33,82.7c0.7,0.4,1.4,0.7,2.1,1l1.1-2.7C35.6,80.8,35,80.5,34.4,80.1z
+			M41,82.7l-0.8,2.8c0.8,0.2,1.5,0.4,2.3,0.6l0.6-2.8C42.3,83.1,41.6,82.9,41,82.7z
+			M61.9,81.8l0.9,2.7c0.7-0.3,1.5-0.6,2.2-0.9L63.8,81C63.2,81.3,62.6,81.6,61.9,81.8z
+			M73.8,74.2l2,2.1c0.6-0.5,1.1-1.1,1.6-1.7l-2.2-1.9C74.8,73.2,74.3,73.7,73.8,74.2z
+			M68.3,78.6l1.5,2.5c0.7-0.4,1.3-0.9,1.9-1.3L70,77.5C69.4,77.9,68.9,78.3,68.3,78.6z
+			M65.2,80.4l1.2,2.6c0.7-0.3,1.4-0.7,2.1-1.1L67,79.4C66.4,79.7,65.8,80.1,65.2,80.4z
+			M80.1,65.6l2.5,1.4c0.4-0.7,0.7-1.4,1-2.1L81,63.8C80.8,64.4,80.5,65,80.1,65.6z
+			M81.6,62.4l2.7,1.1c0.3-0.7,0.6-1.5,0.8-2.2l-2.8-0.8C82.1,61.1,81.9,61.8,81.6,62.4z
+			M58.5,82.9l0.7,2.8c0.8-0.2,1.5-0.4,2.2-0.6l-0.9-2.7C59.9,82.5,59.2,82.7,58.5,82.9z
+			M78.3,68.7l2.4,1.7c0.4-0.7,0.8-1.3,1.2-2L79.4,67C79.1,67.6,78.7,68.1,78.3,68.7z
+			M71.2,76.5l1.7,2.3c0.6-0.5,1.2-1,1.8-1.5l-2-2.1C72.2,75.7,71.7,76.1,71.2,76.5z
+			M59,17.3l0.8-2.8c-0.8-0.2-1.5-0.4-2.3-0.6l-0.6,2.8C57.7,16.9,58.4,17.1,59,17.3z
+			M48.5,16.1l-0.1-2.9c-0.8,0-1.6,0.1-2.3,0.2l0.4,2.9C47.1,16.2,47.8,16.1,48.5,16.1z
+			M52,16.1l0.3-2.9c-0.8,0-1.6-0.1-2.3-0.1L50,16C50.7,16,51.3,16.1,52,16.1z
+			M44.9,16.4l-0.4-2.9c-0.8,0.1-1.5,0.3-2.3,0.4l0.7,2.8C43.6,16.7,44.3,16.5,44.9,16.4z
+			M41.5,17.1l-0.7-2.8c-0.8,0.2-1.5,0.4-2.2,0.6l0.9,2.7C40.1,17.5,40.8,17.3,41.5,17.1z
+			M38.1,18.2l-0.9-2.7c-0.7,0.3-1.5,0.6-2.2,0.9l1.2,2.6C36.8,18.7,37.4,18.4,38.1,18.2z
+			M68.7,21.7l1.7-2.4c-0.7-0.4-1.3-0.8-2-1.2L67,20.6C67.6,20.9,68.1,21.3,68.7,21.7z
+			M65.6,19.9l1.4-2.5c-0.7-0.4-1.4-0.7-2.1-1L63.8,19C64.4,19.2,65,19.5,65.6,19.9z
+			M34.8,19.6L33.6,17c-0.7,0.3-1.4,0.7-2.1,1.1l1.5,2.5C33.6,20.3,34.2,19.9,34.8,19.6z
+			M55.6,16.5l0.6-2.9c-0.8-0.1-1.5-0.2-2.3-0.3l-0.3,2.9C54.2,16.3,54.9,16.4,55.6,16.5z
+			M76.7,70.9c-0.2,0.2-0.3,0.4-0.5,0.7l2.2,1.9c0.2-0.3,0.4-0.5,0.6-0.8c0.3-0.4,0.5-0.7,0.8-1.1l-2.4-1.7
+				C77.2,70.3,77,70.6,76.7,70.9z
+			M62.4,18.4l1.1-2.7c-0.7-0.3-1.5-0.6-2.2-0.8l-0.8,2.8C61.1,17.9,61.8,18.1,62.4,18.4z
+			M23.3,29.1c0.2-0.2,0.3-0.4,0.5-0.7l-2.2-1.9c-0.2,0.3-0.4,0.5-0.6,0.8c-0.3,0.4-0.5,0.7-0.8,1.1l2.4,1.7
+				C22.8,29.7,23,29.4,23.3,29.1z
+			M18.4,37.6l-2.7-1.1c-0.3,0.7-0.6,1.5-0.8,2.2l2.8,0.8C17.9,38.9,18.1,38.2,18.4,37.6z
+			M17.3,41l-2.8-0.8c-0.2,0.8-0.4,1.5-0.6,2.3l2.8,0.6C16.9,42.3,17.1,41.6,17.3,41z
+			M16.5,44.4l-2.8-0.6c-0.1,0.8-0.2,1.5-0.3,2.3l2.9,0.3C16.3,45.8,16.4,45.1,16.5,44.4z
+			M16.1,51.5l-2.9,0.1c0,0.8,0.1,1.6,0.2,2.3l2.9-0.4C16.2,52.9,16.1,52.2,16.1,51.5z
+			M31.7,21.4l-1.5-2.5c-0.7,0.4-1.3,0.9-1.9,1.3l1.7,2.3C30.6,22.1,31.1,21.7,31.7,21.4z
+			M16.1,48l-2.9-0.3c0,0.8-0.1,1.6-0.1,2.3L16,50C16,49.3,16.1,48.7,16.1,48z
+			M28.8,23.5l-1.7-2.3c-0.6,0.5-1.2,1-1.8,1.5l2,2.1C27.8,24.3,28.3,23.9,28.8,23.5z
+			M26.2,25.8l-2-2.1c-0.6,0.5-1.1,1.1-1.6,1.7l2.2,1.9C25.2,26.8,25.7,26.3,26.2,25.8z
+			M21.7,31.3l-2.4-1.7c-0.4,0.7-0.8,1.3-1.2,2l2.5,1.4C20.9,32.4,21.3,31.9,21.7,31.3z
+			M70.9,23.3c0.2,0.2,0.4,0.3,0.7,0.5l1.9-2.2c-0.3-0.2-0.5-0.4-0.8-0.6c-0.4-0.3-0.7-0.5-1.1-0.8l-1.7,2.4
+				C70.3,22.8,70.6,23,70.9,23.3z
+			M19.9,34.4L17.3,33c-0.4,0.7-0.7,1.4-1,2.1l2.7,1.1C19.2,35.6,19.5,35,19.9,34.4z
+			M82.9,41.5l2.8-0.7c-0.2-0.8-0.4-1.5-0.6-2.2l-2.7,0.9C82.5,40.1,82.7,40.8,82.9,41.5z
+			M18.2,61.9l-2.7,0.9c0.3,0.7,0.6,1.5,0.9,2.2l2.6-1.2C18.7,63.2,18.4,62.6,18.2,61.9z
+			M16.4,55.1l-2.9,0.4c0.1,0.8,0.3,1.5,0.4,2.3l2.8-0.7C16.7,56.4,16.5,55.7,16.4,55.1z
+			M83.9,52l2.9,0.3c0-0.8,0.1-1.6,0.1-2.3L84,50C84,50.7,83.9,51.3,83.9,52z
+			M48,83.9l-0.3,2.9c0.8,0,1.6,0.1,2.3,0.1L50,84C49.3,84,48.7,83.9,48,83.9z
+			M83.6,44.9l2.9-0.4c-0.1-0.8-0.3-1.5-0.4-2.3l-2.8,0.7C83.3,43.6,83.5,44.3,83.6,44.9z
+			M51.5,83.9l0.1,2.9c0.7,0,1.5-0.1,2.3-0.2c0,0,0.1,0,0.1,0l-0.4-2.9C52.9,83.8,52.2,83.9,51.5,83.9z
+			M25.8,73.8l-2.1,2c0.5,0.6,1.1,1.1,1.7,1.6l1.9-2.2C26.8,74.8,26.3,74.3,25.8,73.8z
+			M23.5,71.2l-2.3,1.7c0.5,0.6,1,1.2,1.5,1.8l2.1-2C24.3,72.2,23.9,71.7,23.5,71.2z
+			M19.6,65.2L17,66.4c0.3,0.7,0.7,1.4,1.1,2.1l2.5-1.5C20.3,66.4,19.9,65.8,19.6,65.2z
+			M21.4,68.3l-2.5,1.5c0.4,0.7,0.9,1.3,1.3,1.9l2.3-1.7C22.1,69.4,21.7,68.9,21.4,68.3z
+			M55.1,83.6l0.4,2.9c0.8-0.1,1.5-0.3,2.3-0.4l-0.7-2.8C56.4,83.3,55.7,83.5,55.1,83.6z
+			M83.9,48.5l2.9-0.1c0-0.8-0.1-1.6-0.2-2.3l-2.9,0.4C83.8,47.1,83.9,47.8,83.9,48.5z
+			M74.2,26.2l2.1-2c-0.5-0.6-1.1-1.1-1.7-1.6l-1.9,2.2C73.2,25.2,73.7,25.7,74.2,26.2z
+			M78.6,31.7l2.5-1.5c-0.4-0.7-0.9-1.3-1.3-1.9L77.5,30C77.9,30.6,78.3,31.1,78.6,31.7z
+			M80.4,34.8l2.6-1.2c-0.3-0.7-0.7-1.4-1.1-2.1L79.4,33C79.7,33.6,80.1,34.2,80.4,34.8z
+			M76.5,28.8l2.3-1.7c-0.5-0.6-1-1.2-1.5-1.8l-2.1,2C75.7,27.8,76.1,28.3,76.5,28.8z
+			M81.8,38.1l2.7-0.9c-0.3-0.7-0.6-1.5-0.9-2.2L81,36.2C81.3,36.8,81.6,37.4,81.8,38.1z
+			M17.1,58.5l-2.8,0.7c0.2,0.8,0.4,1.5,0.6,2.2l2.7-0.9C17.5,59.9,17.3,59.2,17.1,58.5z
+			M29.1,76.7c-0.2-0.2-0.4-0.3-0.7-0.5l-1.9,2.2c0.3,0.2,0.5,0.4,0.8,0.6c0.4,0.3,0.7,0.5,1.1,0.8l1.7-2.4
+				C29.7,77.2,29.4,77,29.1,76.7z"/>
+
+
+
+		<path class="front--top" d="M61.5,81.1l-2.1,4.4c0,0-0.1,0.5-0.4,1.3c0,0,0,0,0,0c0,0,0,0,0,0c-2.5,0.3-5.2,0.5-7.9,0.5l1-4.3l9.2-37.7
+			L49.9,34.2L38.5,45.3L47.6,83l1,4.3c-2.7,0-5.3-0.2-7.8-0.5c0,0,0,0,0,0c0,0,0,0,0,0c-0.2-0.8-0.4-1.3-0.4-1.3l-2-4.4L15.1,31.4
+			h17.4l10-8.9V8.3c1.5-0.3,5.2-0.7,7.4-0.7c2.1,0.1,5.9,0.5,7.4,0.7v14.2l10.2,8.8h17.3L61.5,81.1z"/>
+		<polygon class="front--badge" points="49.9,36.3 40.1,45.8 49.9,88.9 59.6,45.8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<path class="st0" d="M50.6,87.3L50.6,87.3l-0.8,3.2l-0.8-3.2l0,0c-2.9,0-5.6-0.2-8.2-0.6c0.3,1,0.8,2.6,1.3,4.4l0.8,1.5
+	c0,0,4.5,1.1,6.9,1.1c2.3,0,6.9-1,6.9-1l0.9-1.6c0.6-1.8,1-3.3,1.3-4.4C56.3,87.1,53.5,87.3,50.6,87.3z"/>
+
+	<path class="st1" d="M39.7,86.6l2.5,4.6c-0.6-1.8-1-3.4-1.3-4.4C40.5,86.7,40.1,86.7,39.7,86.6z"/>
+	<path class="st1" d="M59,86.8c-0.3,1-0.7,2.6-1.3,4.4l2.5-4.5C59.8,86.7,59.4,86.7,59,86.8z"/>
+
+<path class="st2" d="M52.2,78.9l-2.3,10l-2.4-10.5c0.1,1.6,0.1,3.2,0.1,4.6l2.2,9.3l2.2-9.3C52.1,81.7,52.1,80.3,52.2,78.9z"/>
+
+	<path class="st3" d="M38.5,45.3L47.6,83c0-1.5,0-3-0.1-4.6l-7.4-32.6l9.8-9.5l9.7,9.5l-7.4,33.1c-0.1,1.4-0.1,2.8-0.1,4.1l9.2-37.7
+		L49.9,34.2L38.5,45.3z"/>
+	<path class="st3" d="M67.8,30.1l-9.3-8.2V7.3c0,0-5.4-0.8-8.6-0.9c-3.2,0-8.6,0.9-8.6,0.9v14.6L32,30.1H13.1l2,1.3h17.4l10-8.9V8.3
+		c1.5-0.3,5.2-0.7,7.4-0.7c2.1,0.1,5.9,0.5,7.4,0.7v14.2l10.2,8.8h17.3l2-1.3H67.8z"/>
+
+	<path class="st2" d="M40.5,85.5l-2-4.4L15.1,31.4l-2-1.3l24.2,51.5l2.1,4.5l0.3,0.5c0,0,0,0,0,0l0,0c0.4,0.1,0.8,0.1,1.2,0.1
+		C40.6,86,40.5,85.5,40.5,85.5z"/>
+	<path class="st2" d="M84.6,31.4L61.5,81.1l-2.1,4.4c0,0-0.1,0.5-0.4,1.3c0.4,0,0.8-0.1,1.2-0.1l0.2-0.4l2.2-4.6l24-51.5L84.6,31.4z
+		"/>
+
+<path class="st4" d="M34.9,62.7l-1.4,0.7c-0.7,0.3-1,1.1-0.7,1.8l8,17.1c0.3,0.7,1.1,1,1.8,0.7l1.4-0.7c0.7-0.3,1-1.1,0.7-1.8
+	l-8-17.1C36.4,62.7,35.6,62.4,34.9,62.7z"/>
+<path class="st5" d="M52.2,9.6h-4.8c-1.3,0-2.4,1.1-2.4,2.4v5.9c0,1.3,1.1,2.4,2.4,2.4h4.8c1.3,0,2.4-1.1,2.4-2.4V12
+	C54.6,10.7,53.5,9.6,52.2,9.6z M53.6,17.9c0,0.8-0.6,1.4-1.4,1.4h-4.8c-0.8,0-1.4-0.6-1.4-1.4V12c0-0.8,0.6-1.4,1.4-1.4h4.8
+	c0.8,0,1.4,0.6,1.4,1.4V17.9z"/>
+
+	<path class="st6" d="M34.6,58.9l-1.8-3.9c-0.3-0.7-1.1-1-1.8-0.7l-1.4,0.7c-0.7,0.3-1,1.1-0.7,1.8l1.8,3.9c0.3,0.7,1.1,1,1.8,0.7
+		l1.4-0.7C34.6,60.4,34.9,59.6,34.6,58.9z"/>
+	<circle class="st6" cx="25.6" cy="67" r="2.3"/>
+	<circle class="st6" cx="23.8" cy="61.2" r="1.4"/>
+
+
+
+	<polygon class="st5" points="39.4,38 38.1,36.6 38.3,34 36.9,33.3 35.4,34.6 34.8,34.3 31.4,32 30.6,34.3 31.8,35.4 33.1,34.7
+		34.6,34.9 35.2,36.8 32.5,37.9 32.9,38.8 32.4,40.1 30.3,39.9 29.9,39.2 29.2,38.8 28.9,37.3 29.5,37 29.2,36.1 27.3,36.1
+		26.4,31.3 24.4,31.7 24.2,31.4 23.3,31.4 23.2,31.6 22.4,32.2 21.7,32.3 21,31.4 19.7,33 21.1,34.4 19.4,37.4 19.5,37.9 24.8,35.8
+		25.8,38.1 20.4,40.4 19.9,41.7 21.1,44.1 27.3,41.4 28.1,43.1 29.4,41.9 29.8,42.7 31.2,41.1 32.8,42.4 33.4,41.1 37,41 37.6,38
+		39.1,38.2 38.5,39.4 39.2,40.2 38.1,40.9 40.4,41.3 39.1,38.9 	"/>
+	<polygon class="st5" points="42.2,36.9 39.8,38.8 41.5,41.1 42.3,40.4 41.4,39.1 42.4,37.8 	"/>
+	<path class="st5" d="M38.1,47v-1.9l-2.8-0.6l-2.2-1.4l1.9,1.7l-0.2,0.9l-4.4-0.1l-0.8-1.3v-0.6l-0.6,0.8l-0.5,0.1L28.3,44l-0.2,0.2
+		l0.1,0.6L26.8,46l-1.5-0.9l-3.1,1.6l0.7,1.4l1.2-0.6c0,0,0.5,0.6,0.5,0.6s3-0.9,3-0.9l1.5,0.6l1-0.6l1,2L25,52.4l0.3,0.6l5.5-3.1
+		l1.1-1.1l2.5,3.3l1.7-0.1l2.4-1.4l1.6,1.5L38.9,47L38.1,47z"/>
+	<path class="st5" d="M66.8,56.8c0,0,2.4-0.9,2.8-1.1s5.3-3.4,5.3-3.4l1.9-4.2L74.4,52l-1.2,1.1l1-1.8l-1.6,1.8l-6.4,3.6l0.3-3.5
+		c0,0,0-2.4,0.4-3.1s0.8-2,0.8-2s1.1-1.1,1.4-1.3s-0.4-2.5-0.4-2.5l1.4-2.3l-1.3-1.4c0,0-0.8-0.8-0.8-1.2s-0.2-0.9-0.1-1.3
+		s-0.4-1.4-0.6-1.9s-1.1-1.1-1.1-1.1l0.4-1l-0.9-1c0,0-0.3-0.1-0.5-0.3c-0.3-0.2-0.5-0.5-0.4-0.7c0.3-0.5,0.2-1.4,0.2-1.4
+		s0-0.4-0.3,0.1s-0.4,1.3-0.5,1.6l0.8,0.9l0.5,0.4l-0.8,1l0.3,0.9c0,0-0.9-0.7-0.9-0.9s-0.2-0.5-0.3-0.8s-1.2-1.3-1.1-1.5
+		s0.3-2.5,0.3-2.5l-0.8-0.7l0.2,0.6c0,0,0.1,0.6,0.1,0.8s-0.1,0.9-0.1,1.3s-0.2,1.1-0.2,1.1l0.9,0.9c0,0,0.1,0.3,0.3,0.7
+		s0.8,1.3,0.8,1.3s0.4,0.4,0.6,0.3s1-0.4,1-0.4s0.2,0.3,0.4,0.8s0.8,0.8,0.8,1s0.2,0.6,0.2,0.8S67,39.1,67,39.1l0.2,0.5
+		c0,0,0.1,0.5-0.3-0.1s-1.5-2-1.5-2l0.2-0.5c0,0-0.4-0.2-0.5,0.2s-0.3,1.1-0.3,1.1l0.3,0.5c-0.4,1-0.8,2.1-0.8,2.1l0.1,0.9
+		c0,0-0.4,0.1-0.6-0.1s-0.2-0.6,0-0.8s0.2-0.5,0.2-0.5l-0.4-0.3c0,0,0.4-0.4,0-0.7s-0.3,0.1-0.4-0.3s0.6,0.4-0.1-0.3
+		s-0.9-1.3-0.9-1.3s0.8-0.2,0.7-0.8c0-0.1,0-0.2-0.1-0.3c-0.2-0.6-0.7-1.4-0.9-1.6c-0.2-0.2-0.1-0.2-0.2-0.2s0.3,0.6,0.3,0.6
+		s0.4,1.5,0.2,1.6s0.2-0.3-0.2,0.1s-0.3,1.1-0.3,1.1s0.3,0.6,0.5,0.6s-0.2-0.6,0.2,0.1s0.6,1,0.6,1.2s0.3,0.3,0.3,0.6s0.1,0.3,0,0.8
+		s-0.3,0.8-0.1,0.8s0.3,0.1,0.4,0.1s0.2,0,0.2,0c0.1,0.2,0.3,0.2,0,0.9s-0.1,0.3-0.6,1.4s-0.6,1.6-0.8,2.1s0.1,0.9,0.2,1.1
+		s0.1,0.2,0.1,0.6s0,0.6,0,1s0,1,0,1l-0.2,0.6c0,0-0.1,0.3-0.3,0.4s0.1,0.3-0.4,0.4s-1.6,0.3-1.6,0.3l-0.3,0.2
+		c-0.1-0.1-0.2-0.2-0.3-0.2l-0.1,0.4c0.1,0,0.2,0.1,0.3,0.1c1,0.3,0.6,0.3,1,0.3s0.4,0,0.4,0s-0.1-0.3,0.3,0s0.4,0.4,0.6,0.6
+		s0.2,0.1,0.2,0.6s0.2-0.1,0,0.5s-0.1,0.5-0.3,1.1s0.1,0.2-0.3,0.6s-1.6-0.3-1.8-0.5c-0.2-0.1-0.7-0.6-0.9-0.8l-0.8,3.3
+		c0.3,0,0.9-0.3,0.9-0.3s0,0.4-0.6,1c-0.3,0.4-0.6,0.7-0.7,0.9l-0.9,3.8c0,0.2,0,0.5-0.2,1c-0.3,1.6-0.3,2.4-0.8,3.4
+		c-0.1,0.1-0.1,0.2-0.2,0.3l-0.1,0.4c0.7-0.9,2.1-2.5,2.2-2.6c0.2-0.3,0-0.1,0.2-0.3s0.4-1.3,0.5-0.3s-0.4,0.6-0.9,1.9
+		S57,68.7,57,68.7s1.9-1.4,2.2-1.8s0.3-0.4,0.3-0.4s-0.4-0.3,0.3-0.2s0.8,0.3,1-0.1s2.1,0.4-0.1-0.9s-2.2-1.3-2.2-1.3
+		c-0.3-0.3-0.3,0.3-0.3-0.5s-0.2-0.3,0-1s0.1-0.6,0.4-1.2s0.1-0.5,0.4-0.9s1.2-1.1,1.2-1.1s0.3,0.1,0.4,0.4s0.2-0.5,0.2,0.8
+		s-0.1,1.5-0.1,1.8s0.3,0.6,0.3,0.6s-0.2,0,0.2,0.4s0.8,0.6,0.8,0.9s-0.3,0,0.1,0.4s0.2,0.3,0.4,0.4s0.3,0.2,0.6,0.3
+		s0.1,0.6,0.3,0.1s0.3-0.6,0.1-1.1s-0.3,0.2-0.6-0.9s-0.3-1.1-0.3-1.1l-0.3-0.6c0,0,0.3-0.1,0.4-0.3s0.1-0.2,0.1-0.2s-0.3,0,0.4-0.1
+		s0.4-0.3,0.6-0.1s0.3,0.1,0.4,0.6s-0.3,0.6,0.1,1s1.2,0.6,1.2,0.6l0.3-0.1c0,0,0.3-0.3,0.4-0.3s0.5,0,0.5,0l-1.3-2.3v-0.3
+		c0,0,0.1-1,0.4-1.1s-0.4-0.1,0.3-0.1s1.3-0.2,1.6,0.1c0.3,0.2,0.7,0.7,1.2,1.2c0.1,0.1,0.3,0.2,0.4,0.3c0.5,0.4,1.2,0.9,1.5,1.1
+		l0.3-0.6c-0.1-0.2-0.2-0.3-0.6-0.5c-1.1-0.3-1.9-0.9-2-1.3s0.2-0.1-0.3-0.7s-0.5-0.6-0.7-1s0.1-0.1-0.2-0.4s-0.3-0.3-0.3-0.3
+		s-0.3,0.1-0.4,0.5s-0.1,0.8-0.1,0.8c-0.6-0.1-0.6-0.3-0.8-0.4S65.1,58,65.1,58l0.5-1L66.8,56.8z M62,58.8c-0.1-0.1-0.2,0-0.5,0
+		s0,0.2,0,0.8c0,0.6-0.1,0.5-0.2,0.8c-0.1,0.4-0.2,0-0.2,0S61,59.9,61,59.6s-0.1-0.3-0.3-0.5s0,0-0.1-0.1s-0.5-0.2-0.7-0.3
+		c-0.2,0,0-0.4,0-0.6s0-0.2-0.1-0.4c0-0.3-0.2-0.5-0.1-0.6c0.1-0.1,0,0,0.3,0c0.3,0,0.6,0.3,0.6,0.3l0.3,0.8l-0.2,0
+		c0,0,0.3,0.1,0.7,0.1c0.5,0,0,0,0.2-0.3c0,0,0.1-0.2,0.3-0.5c0.2-0.3,0.1-0.2,0.1-0.2s0.1,0.4,0.1,1.1C62.3,59.1,62.2,58.9,62,58.8
+		z M66.1,39.5c0.2,0.3,0.5,0.7,0.5,0.8c0,0.2,0.1,1,0.1,1l-0.2,1c0,0-0.5,2.1-0.5,2.3c0,0.1-0.3,1-0.3,1.2s-0.5,1-0.5,1
+		s0.7-2.5,0.7-2.8c0-0.3,0-0.8,0-0.8S66,43,66,42.8s0-0.2,0-0.4c0-0.2,0-0.2,0-0.5c0-0.3,0.1-0.4,0.1-0.8s-0.1-0.3-0.3-0.5
+		c-0.2-0.3-0.3-0.3-0.4-0.5c-0.1-0.2,0-0.3,0-0.5c0-0.2,0.1-0.5,0.1-0.5l-0.4-0.8C65.2,38.2,66,39.3,66.1,39.5z M63.6,46
+		c0,0.7,0,1-0.1,1.5c-0.1,0.4,0,0.2-0.2,0.7s-0.4,0.7-0.4,0.7l0-1.6c0,0-0.1-0.1-0.1-0.3s0.2-1.3,0.2-1.3l1-1.6
+		c-0.1,0.2-0.5,1-0.5,1S63.5,45.3,63.6,46z M64.5,53.7c-0.1-0.3-0.5-1-0.6-1.2c-0.1-0.2-0.1-0.7-0.1-0.7s0.4-1.7,0.6-2.4
+		s0.4-1,0.6-1.3c0.2-0.3,0.9-1.5,1-1.8c0.1-0.2,0.4-2,0.4-2.2s0.4-1.8,0.5-1.9s0.4-1.4,0.4-1.4s0.9,1.3,1,1.5
+		c0.1,0.3,0.3,1.2,0.2,1.3s-0.3,0.6-0.3,0.6l0.3,0.7c0,0-0.9,0.6-1.1,0.6s-1,1.4-1,1.5c-0.1,0.1,0.2,0.3,0.7,0.7s0.2,0.4,0.2,0.4
+		l-0.6,2c0,0-0.5,3.9-0.5,4c0,0.1-0.4-0.3-0.4-0.3l0.4-2l-0.3,1.2C65.7,53.1,64.5,53.9,64.5,53.7z"/>
+
+	<path class="st8" d="M73.4,58.5l-0.6,1.2c-0.3,3.6-1.7,6.4-3.4,7.4L69,67.8C71.4,67,73.2,63.2,73.4,58.5z"/>
+	<path class="st8" d="M75.4,54.2c1.1,3.4,0.9,7.5-0.8,11.5c-1.9,4.2-5.1,7.3-8.6,8.6L65.7,75c3.9-1.3,7.4-4.6,9.3-9.1
+		c1.4-3.2,1.9-6.6,1.4-9.7c1.2,3.6,1.1,7.9-0.8,11.9c-2.2,4.8-6.4,8-10.8,8.9l-0.3,0.6c4.8-0.8,9.2-4.2,11.5-9.2
+		c2.4-5.1,2.1-10.7-0.4-14.7L75.4,54.2z"/>
+	<path class="st8" d="M47.3,65.9v-6.6c-0.2,0.2-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3v6.6c0-0.4,0.3-0.7,0.7-0.7S47.3,65.6,47.3,65.9z"
+		/>
+	<path class="st8" d="M53.8,65.9v-6.6c-0.2,0.2-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3v6.6c0-0.4,0.3-0.7,0.7-0.7S53.8,65.6,53.8,65.9z"
+		/>
+	<path class="st8" d="M40.8,46.8h1.6c0.2,0,0.3,0.2,0.3,0.3v5.4h0.9v-5.4c0-0.2,0.2-0.3,0.3-0.3h1.7c0.2,0,0.3,0.2,0.3,0.3v10.3
+		c0.1-0.1,0.3-0.1,0.5-0.1c0.2,0,0.3,0,0.5,0.1V47.2c0-0.2,0.2-0.3,0.3-0.3h4.9c0.2,0,0.3,0.2,0.3,0.3v10.3c0.1-0.1,0.3-0.1,0.5-0.1
+		c0.2,0,0.3,0,0.5,0.1V47.2c0-0.2,0.2-0.3,0.3-0.3h1.7c0.2,0,0.3,0.2,0.3,0.3v5.4h0.9v-5.4c0-0.2,0.2-0.3,0.3-0.3h1.6v-0.9H40.8
+		V46.8z"/>
+	<path class="st8" d="M50.6,69.2l-1.2-0.3l-0.5-0.1l-3.8-1l0.1,0.4l3.8,1v0.4l-3.7-1l0.1,0.4l3.6,0.9v0.4l-3.5-0.9l0.1,0.4l3.4,0.9
+		V71l-3.3-0.9l0.1,0.4l3.2,0.8v0.4L45.8,71l0.1,0.4l3,0.8v9c0,0.1,0.1,0.2,0.2,0.2h0.1c0.1,0,0.2-0.1,0.2-0.2v-8.8l1.2,0.3v8.5
+		c0,0.1,0.1,0.2,0.2,0.2h0.1c0.1,0,0.2-0.1,0.2-0.2v-8.4l2.3,0.6l0.1-0.3l-2.3-0.6V72l2.4,0.6l0.1-0.3l-2.5-0.7v-0.4l2.6,0.7
+		l0.1-0.3l-2.7-0.7v-0.4l2.7,0.7l0.1-0.3l-2.8-0.7v-0.4l2.9,0.8l0.1-0.3l-3-0.8L50.6,69.2z M50.6,72.2l-1.2-0.3v-0.4l1.2,0.3V72.2z
+		 M50.6,71.5l-1.2-0.3v-0.4l1.2,0.3V71.5z M50.6,70.7l-1.2-0.3V70l1.2,0.3V70.7z M50.6,70l-1.2-0.3v-0.4l1.2,0.3V70z"/>
+	<path class="st8" d="M49.2,65.4h1.3c0.1,0,0.3-0.1,0.3-0.3v-6.7c0-0.2-0.2-0.4-0.4-0.4h-1c-0.2,0-0.4,0.2-0.4,0.4v6.7
+		C48.9,65.3,49,65.4,49.2,65.4z"/>
+	<path class="st8" d="M23.6,55.9c-0.1-0.1-0.3-0.2-0.5-0.1l-4.9,2.4c-0.2,0.1-0.2,0.3-0.2,0.4l1.7,5.7c0.1,0.2,0.4,0.3,0.6,0.2
+		l2.2-1.9v0c-0.4-0.4-0.7-0.9-0.7-1.4c0-1.2,1.1-2.2,2.3-1.9c0.7,0.1,1.3,0.7,1.5,1.4c0.2,0.7-0.1,1.4-0.5,1.9l0.1,0.2l1.9-1
+		c0.2-0.1,0.3-0.3,0.1-0.5L23.6,55.9z"/>
+	<path class="st8" d="M21.3,53.7c-0.2-0.8-0.6-2.6-0.6-4.5c0-0.3-0.3-0.5-0.6-0.4c-1.2,0.5-3.5,1.6-3,3.4c0.5,1.8,2.7,2.1,3.8,2.1
+		C21.2,54.3,21.4,54,21.3,53.7z M19,53.1c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4s1.4,0.6,1.4,1.4
+		C20.4,52.5,19.8,53.1,19,53.1z"/>
+	<circle class="st8" cx="19" cy="51.7" r="0.9"/>
+	<path class="st8" d="M79.2,49.2c-0.2,0-0.4,0.1-0.4,0.3l-0.4,4.7c0,0.2,0.1,0.3,0.3,0.3c0.9,0,3.4-0.1,3.8-2.2
+		C82.9,50.1,80.2,49.4,79.2,49.2z M80.5,53.2c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S81.2,53.2,80.5,53.2z"/>
+	<path class="st8" d="M33.6,27.3c-1.1-0.3-2.8-2-3.3-2.6s-2-0.7-2.6-0.1s-1,0.9-1.2,1.4s-0.3,1.4,0.4,2.1c0.5,0.5,1.4,1.5,1.9,2H32
+		l3.2-2.9C34.7,27.4,34.1,27.4,33.6,27.3z"/>
+
+
+	<path class="st7 light" d="M48.7,16.3H51c0.3,0,0.5-0.2,0.5-0.5v-3.6c0-0.3-0.2-0.5-0.5-0.5h-2.3c-0.3,0-0.5,0.2-0.5,0.5v3.6
+		C48.2,16.1,48.4,16.3,48.7,16.3z"/>
+	<path class="st7" d="M51,44.9l1-1.1c0.3-0.3,0.2-0.8-0.1-1.1l-2.1-1.5v0l0,0l0,0v0l-2.1,1.5c-0.4,0.3-0.4,0.8-0.1,1.1l1,1.1l-1,0.7
+		l1.7,7.5c0.1,0.5,0.8,0.5,0.9,0l1.7-7.5L51,44.9z"/>
+	<circle class="st7" cx="46.6" cy="65.9" r="0.7"/>
+	<circle class="st7" cx="46.6" cy="58.4" r="1.1"/>
+	<circle class="st7" cx="53.1" cy="65.9" r="0.7"/>
+	<circle class="st7" cx="53.1" cy="58.4" r="1.1"/>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</switch>
+</svg>

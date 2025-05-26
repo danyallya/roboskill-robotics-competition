@@ -1,0 +1,473 @@
+<!doctype html>
+<!--[if lt IE 7 ]>
+<html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Official Website of Robo Skill">
+    <meta name="keywords" content="Robo Skill">
+    <title>Robo Skill</title>
+    <!-- Css -->
+
+    <link href="css/app.css?v=3" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="scripts/lib/html5shiv.js"></script>
+    <script src="scripts/lib/respond.js"></script>
+    <![endif]-->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <!--<script data-main="scripts/configuration" src="scripts/lib/require.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="jwplayer/skins/robot_wars.css">
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-77308701-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <style type="text/css">
+        .tk-korolev {
+            font-family: "korolev", sans-serif;
+        }
+    </style>
+    <style type="text/css">
+        @font-face {
+            font-family: tk-korolev-i3;
+            src: url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"), url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"), url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: tk-korolev-n7;
+            src: url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: tk-korolev-n3;
+            src: url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: tk-korolev-i7;
+            src: url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: italic;
+        }</style>
+
+    <style type="text/css">
+        @font-face {
+            font-family: korolev;
+            src: url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"), url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"), url(https://use.typekit.net/af/006eab/00000000000000003b9adf88/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: korolev;
+            src: url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/e72642/00000000000000003b9adf91/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: korolev;
+            src: url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/56ff04/00000000000000003b9adf89/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: korolev;
+            src: url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/81b241/00000000000000003b9adf92/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: italic;
+        }</style>
+</head>
+<body class="no-touch  no-overflow-X pace-done">
+<header class="">
+    <a id="navTrigger" class="trigger ">
+        <span>Navigation Trigger</span>
+    </a>
+    <div class="brand__container--secondary">
+        <a href="#"><img src="css/assets/theme/rw-inline.png" alt="robot wars">
+            <a href="fa-index.html">
+                <i class="fa fa-language" style="    float: right;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 8px;
+    top: 8px;">
+                </i>
+            </a>
+
+        </a>
+
+    </div>
+
+    <nav class="navigation">
+        <ul class="navigation__menu">
+            <li>
+                <a href="index.html" class="">Home</a>
+            </li>
+            <li>
+                <a class="current" href="about-competitions.html">
+                    About Competitions
+                </a>
+            </li>
+
+            <li>
+                <a href="lastchampian.html" class="">Last Champian Teams
+                </a>
+            </li>
+            <li>
+                <a href="Competitors.html" class="">Competitors</a>
+            </li>
+            <li>
+                <a href="News.html" class="">News</a>
+            </li>
+            <li>
+                <a href="sponsorship.html" class="">Sponsership</a>
+
+            </li>
+            <li>
+                <a href="Contact-Us.html" class="">Contact Us</a>
+            </li>
+            <li>
+                <a href="gallery.html" class="">Gallery</a>
+
+                <!--<a href="faqs.html" class="">FAQ's</a>-->
+            </li>
+        </ul>
+        <div class="home__content">
+
+            <div id="homeBrand" class="home__content__brand is-open">
+                <img class="content-logo" src="css/assets/theme/logo.png" alt="Robot Wars">
+                <h1 style="font-size: 19px;">IRAN FIGHTER </h1>
+                <h2 style="font-size: 16px; color:#fed101;padding-top: 10px;">robotic competitions</h2>
+            </div>
+        </div>
+
+        <!--<a href="/" class="navigation__logo">-->
+        <!--<img src="css/assets/theme/logo.png" alt="Robot Wars">-->
+        <!--</a>-->
+        <!--<div class="navigation__social">-->
+        <!--<ul>-->
+        <!--<li><a href="https://www.facebook.com/UKRobotWars/" target="_blank"><i class="fa fa-facebook"></i></a>-->
+        <!--</li>-->
+        <!--<li><a href="https://twitter.com/UKRobotWars" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+    </nav>
+</header>
+
+
+<main>
+
+
+    <section id="wrapper" class="show is-open">
+        <div class="show__bg">
+            <div class="show__overview">
+                <div class="show__overview__container">
+                    <h1> General information
+                    </h1>
+                    <p><strong>The RoboSkill competition occurs twice a year in Kerman-Iran. </strong></p>
+                    <p>This competition is broadcasted from official IR-Iran's TV and is held by professional and
+                        technical organization of Kerman , Lavan robotic institute and Shahid Mahdavi school.</p>
+                    <p> RoboSkill competition has most professional and biggest fight arena in Iran (12x12 meters) which
+                        includes hidden weapons.</p>
+                    <p><strong>The competition is held in three 30kg , 60kg and 120kg leagues.</strong></p>
+                    <h1> Arena information
+                    </h1>
+                    <p><strong>The Robo Skill competition arena has the following specifications : </strong></p>
+                    <p>Dimensions of the land: 12x12 meters</p>
+                    <p> Height above ground: 50 cm</p>
+                    <p>Ground floor: Flat iron sheet</p>
+                    <p>material of internal walls: iron</p>
+                    <p>Height of internal walls: 30 cm</p>
+                    <p>Ground racing is 100 cm away from the outer guard.</p>
+                    <p>The height of the outer walls of the earth: 3 meters</p>
+                    <p>The gender of external walls: a combination of iron and polycarbonate 6mm sheet</p>
+                </div>
+            </div>
+            <div class="show__format">
+                <div class="show__format__container">
+                    <h3 class="section-heading"><span></span></h3>
+
+
+                    <ul class="show__format__list">
+                        <li>
+                            <h3></h3>
+                            <img src="css/assets/theme/Icons/30.png">
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3></h3>
+                            <img src="css/assets/theme/Icons/50.png">
+
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3></h3>
+                            <img src="css/assets/theme/Icons/60.png">
+
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Show arena-->
+            <div class="show__arena">
+                <h2>The Arena</h2>
+                <div class="show__arena__hotspots">
+                    <img src="css/assets/media/the-arena.jpg"/>
+                    <div class="spot spot1">
+                        <div class="spot__inner"><label for="modal-1">1</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot2">
+                        <div class="spot__inner"><label for="modal-2">2</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot3">
+                        <div class="spot__inner"><label for="modal-3">3</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot4">
+                        <div class="spot__inner"><label for="modal-4">4</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot5">
+                        <div class="spot__inner"><label for="modal-5">5</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot6">
+                        <div class="spot__inner"><label for="modal-6">6</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                    <div class="spot spot7">
+                        <div class="spot__inner"><label for="modal-7">7</label></div>
+                        <div class="spot__pulse"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show__win">
+                <div class="show__win__container">
+                    <h3 class="section-heading"><span>How do you win Robot Wars?</span></h3>
+                    <p>In each round of the competition the Robots will engage in a timed battle, with the winners
+                        decided by either ‘knockout’ or, if the time runs out with no clear winner, a ‘judges' decision’
+                        made by our panel of three expert judges.</p>
+
+                    <h3 class="section-heading"><span>
+
+                        The judges decision is marked on:
+
+
+</span></h3>
+                    <p>
+                        In each round of the competition the Robots will engage in a timed battle, with the winners
+                        decided by either ‘knockout’ or, if the time runs out with no clear winner, a ‘judges' decision’
+                        made by our panel of three expert judges.
+
+                    </p>
+                    <ul class="show__win__ways">
+                        <li>
+                            <img class="the-show-icons" class="the-show-icons"
+                                 src="css/assets/theme/Icons/RW-Icon---Damage-Textured.png">
+                            <h3>Damage</h3>
+                            <p>Causing clear damage to an opponent both visually and internally.</p>
+                        </li>
+                        <li>
+                            <img class="the-show-icons" src="css/assets/theme/Icons/RW-Icon---Aggression-Textured.png">
+                            <h3>Aggression</h3>
+                            <p>Consistently taking the battle to its opponents.</p>
+                        </li>
+                        <li>
+                            <img class="the-show-icons" src="css/assets/theme/Icons/RW-Icon---Control-Textured.png">
+                            <h3>Control</h3>
+                            <p>Demonstrating good driving skills and weapon accuracy throughout the battle.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Modal 1 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-1" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-1"></div>
+                        <h3>control-tower</h3>
+                        <img src="css/assets/media/control-tower.jpg" alt="The Flame Pit"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-2" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-2"></div>
+                        <h3>pit-of-oblivion</h3>
+                        <img src="css/assets/media/pit-of-oblivion.jpg" alt="Floor Flipper"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-3" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-3"></div>
+                        <h3>control-zone</h3>
+                        <img src="css/assets/media/control-zone.jpg" alt="The Pit of Oblivion"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 4 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-4" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-4"></div>
+                        <h3>Arena Spikes</h3>
+                        <img src="css/assets/media/spikes.jpg" alt="Arena Spikes"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 5 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-5" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-5"></div>
+                        <h3>Corner patrol zone</h3>
+                        <img src="css/assets/media/robot.JPG" alt="Corner patrol zone"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 6 -->
+            <div class="modal">
+                <input class="modal-state" id="modal-6" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-6"></div>
+                        <h3>Viewing tower</h3>
+                        <img src="css/assets/media/flame-pit.jpg" alt="Viewing tower"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!--modal 7-->
+            <div class="modal">
+                <input class="modal-state" id="modal-7" type="checkbox"/>
+                <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                        <div class="modal-close" for="modal-7"></div>
+                        <h3>flipper</h3>
+                        <img src="css/assets/media/flipper.jpg" alt="Viewing tower"/>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show__presenters">
+                <div class="show__presenters__container">
+                    <h2>Presenters</h2>
+                    <ul class="show__presenters__list">
+                        <li>
+                            <img class="pulse" width="185" height="185"
+                                 src="css/assets/media/seyed%20ali%20seyed%20jafari.jpg" alt="Angela Scanlon"/>
+                            <span>Seyed ali seyed jafari</span>
+                            <p></p>
+                        </li>
+
+                        <li>
+                            <img class="pulse" width="185" height="185"
+                                 src="css/assets/media/mohammad%20reza%20jahangiri.jpg" alt="Dara O Briain"/>
+                            <span>Mohammad reza jahangiri</span>
+                            <p></p>
+                        </li>
+                        <li>
+                            <img class="pulse" width="185" height="185"
+                                 src="https://www.teatro.it/old/2016-11/nobody_m.original.jpg" alt="Angela Scanlon"/>
+                            <span>Mohammad tork zade</span>
+                            <p></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="show__judges">
+                <div class="show__judges__container">
+                    <h2>Judges</h2>
+                    <ul class="show__judges__list">
+                        <li>
+                            <img class="pulse" src="css/assets/media/judge1.jpg" width="185" height="185"
+                                 alt="Professor Noel Sharkey"/>
+                            <span> reza dehghan</span>
+                            <p>master of Mechanical Engineering in Graduate University of Advanced Technology</p>
+                        </li>
+                        <li>
+                            <img class="pulse" src="css/assets/media/judge2.jpg" width="185" height="185"
+                                 alt="Dr Lucy Rogers"/>
+                            <span> majid ranjbar</span>
+                            <p>International Referee of the World Organization for Skills in Manufacturing </p>
+                        </li>
+                        <li>
+                            <img class="pulse" src="css/assets/media/judge3.jpg" width="185" height="185"
+                                 alt="Professor Sethu Vijayakumar"/>
+                            <span> abolfazl ebrahimi</span>
+                            <p>Electronica and Robotics specialist</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+
+<script type="text/javascript" src="scripts/lib/jquery.js"></script>
+
+<script src="https://use.typekit.net/gpp5hls.js"></script>
+<script>try {
+    Typekit.load({async: true});
+} catch (e) {
+}</script>
+<script type="text/javascript" src="scripts/app/main.js"></script>
+
+
+</body>
+</html>
